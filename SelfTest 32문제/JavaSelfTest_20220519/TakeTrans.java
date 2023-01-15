@@ -1,29 +1,29 @@
-package cooperation; // ÆĞÅ°Áö ¼±¾ğ, ÆĞÅ°Áö ÀÌ¸§ cooperation
+package cooperation; // íŒ¨í‚¤ì§€ ì„ ì–¸, íŒ¨í‚¤ì§€ ì´ë¦„ cooperation
 
-//Å¬·¡½º ¼±¾ğ, Å¬·¡½º ÀÌ¸§ TakeTrans
+//í´ë˜ìŠ¤ ì„ ì–¸, í´ë˜ìŠ¤ ì´ë¦„ TakeTrans
 public class TakeTrans {
 
 	public static void main(String[] args) {
 		
-		// ÇĞ»ı ¼¼ ¸í »ı¼º
+	// í•™ìƒ ì„¸ ëª… ìƒì„±
         Student studentJames = new Student("James", 5000);
         Student studentTomas = new Student("Tomas",10000);
         Student studentEdward = new Student("Edward",20000);
 		
-		Bus bus100 = new Bus(100);    // ³ë¼± ¹øÈ£°¡ 100ÀÎ ¹ö½º »ı¼º
-        studentJames.takeBus(bus100); // James°¡ 100¹ø ¹ö½º¸¦ Å½
-        studentJames.showInfo();      // JamesÀÇ Á¤º¸ Ãâ·Â
-        bus100.showInfo();            // busÀÇ Á¤º¸ Ãâ·Â
+		Bus bus100 = new Bus(100);    // ë…¸ì„  ë²ˆí˜¸ê°€ 100ì¸ ë²„ìŠ¤ ìƒì„±
+        studentJames.takeBus(bus100); // Jamesê°€ 100ë²ˆ ë²„ìŠ¤ë¥¼ íƒ
+        studentJames.showInfo();      // Jamesì˜ ì •ë³´ ì¶œë ¥
+        bus100.showInfo();            // busì˜ ì •ë³´ ì¶œë ¥
         
-        Subway subwayGreen = new Subway("2È£¼±");  // ³ë¼± ¹øÈ£°¡ 2È£¼±ÀÎ ÁöÇÏÃ¶ »ı¼º
-        studentTomas.takeSubway(subwayGreen);     // Tomas°¡ 2È£¼±À» Å½
-        studentTomas.showInfo();                  // TomasÀÇ Á¤º¸ Ãâ·Â
-        subwayGreen.showInfo();                   // subwayÀÇ Á¤º¸ Ãâ·Â
+        Subway subwayGreen = new Subway("2í˜¸ì„ ");  // ë…¸ì„  ë²ˆí˜¸ê°€ 2í˜¸ì„ ì¸ ì§€í•˜ì²  ìƒì„±
+        studentTomas.takeSubway(subwayGreen);     // Tomasê°€ 2í˜¸ì„ ì„ íƒ
+        studentTomas.showInfo();                  // Tomasì˜ ì •ë³´ ì¶œë ¥
+        subwayGreen.showInfo();                   // subwayì˜ ì •ë³´ ì¶œë ¥
         
-        Taxi taxi4534 = new Taxi(4534);           // ÅÃ½Ã ¹øÈ£°¡ 4534ÀÎ ÅÃ½Ã »ı¼º
-        studentEdward.takeTaxi(taxi4534);         // Edward°¡ 4534¹ø ÅÃ½Ã¸¦ Å½
-        studentEdward.showInfo();                 // EdwardÀÇ Á¤º¸ Ãâ·Â
-        taxi4534.showInfo();                      // taxiÀÇ Á¤º¸ Ãâ·Â
+        Taxi taxi4534 = new Taxi(4534);           // íƒì‹œ ë²ˆí˜¸ê°€ 4534ì¸ íƒì‹œ ìƒì„±
+        studentEdward.takeTaxi(taxi4534);         // Edwardê°€ 4534ë²ˆ íƒì‹œë¥¼ íƒ
+        studentEdward.showInfo();                 // Edwardì˜ ì •ë³´ ì¶œë ¥
+        taxi4534.showInfo();                      // taxiì˜ ì •ë³´ ì¶œë ¥
     
 	} // End main
 } // End class
