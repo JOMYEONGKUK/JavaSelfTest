@@ -10,7 +10,7 @@ public class TakeTrans {
         Student studentTomas = new Student("Tomas",10000);
         Student studentEdward = new Student("Edward",20000);
 		
-		Bus bus100 = new Bus(100);    // 노선 번호가 100인 버스 생성
+	Bus bus100 = new Bus(100);    // 노선 번호가 100인 버스 생성
         studentJames.takeBus(bus100); // James가 100번 버스를 탐
         studentJames.showInfo();      // James의 정보 출력
         bus100.showInfo();            // bus의 정보 출력
